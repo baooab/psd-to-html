@@ -18,6 +18,7 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2%;
+    overflow: hidden;
 }
 
 header {
@@ -182,4 +183,56 @@ footer li.tw {
     margin-top: 30px;
     border-top: 2px solid #333;
     color: #999;
+}
+
+/* MEDIA QUERIES */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+
+    #selling-points li {
+        width: 40%;
+        padding: 0 5%;
+        margin: 20px 0;
+    }
+
+    footer ul {
+        float: left;
+        width: 50%;
+    }
+
+    footer ul:nth-child(odd) {
+        clear: both;
+    }
+
+    #quote {
+        width: 90%;
+        padding: 40px 5%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    header nav {
+        float: none;
+    }
+
+    header nav li {
+        margin-left: 0;
+        width: 16.66%;
+        text-align: center;
+    }
+
+    header h1 {
+        float: none;
+        margin-bottom: 0 auto 15px;
+    }
+
+    #lastest-work li {
+        width: 60%;
+        margin: 30px 20% !important;
+    }
+
 }
