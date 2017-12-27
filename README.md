@@ -11,3 +11,7 @@ Above 960px: all in one line.
 Below 768px: two in one line.
 
 Below 480px: one in one line & flexbox navigation menu.
+
+resources:
+
+- psd: http://elemisfreebies.com/09/28/marble-free-homepage-psd/
