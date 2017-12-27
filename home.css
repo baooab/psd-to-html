@@ -230,9 +230,36 @@ footer li.tw {
         margin-bottom: 0 auto 15px;
     }
 
+    #lastest-work h2 {
+        text-align: center;
+    }
+
     #lastest-work li {
         width: 60%;
         margin: 30px 20% !important;
     }
 
+}
+
+@media screen and (max-width: 480px) {
+
+    #selling-points li {
+        width: 80%;
+        padding: 0 10%;
+    }
+
+    #lastest-work li {
+        width: 80%;
+        margin: 30px 10% !important;
+    }
+
+    #quote {
+        font-weight: bold;
+    }
+
+    footer ul {
+        float: none;
+        width: 100%;
+        border-top: 2px solid #333;
+    }
 }
