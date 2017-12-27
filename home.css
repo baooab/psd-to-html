@@ -261,4 +261,15 @@ footer li.tw {
         width: 100%;
         border-top: 2px solid #333;
     }
+
+    header nav ul {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    header nav li {
+        float: none;
+        width: auto;
+        padding: 0 .5em;
+    }
 }
